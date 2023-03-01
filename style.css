@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');  /*import du style de la police*/
+*{                                                      /*style de tout les elements avant de commencer, on applique le style*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -61,12 +61,12 @@ button {
  background-color: #699df0;
  word-break: break-all;
  cursor: pointer;
- animation: anime 0.5s linear;
+ animation: anime 0.5s linear;                  /* l'aniamtion est appelle ici elle dure 0.5s et elle est animé de facon linear  */
 }
 .paragraphe_style:last-child {
 margin-bottom: 0;
 }
-@keyframes anime {
+@keyframes anime {                              /* Metode d'animation en Css on la creer puis on l'appelle ailleur */
     from{
         transform: translateY(50px);
     }
